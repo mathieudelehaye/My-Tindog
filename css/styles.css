@@ -1,4 +1,4 @@
-/* elements */
+/* ----------------------------- Elements ----------------------------- */
 body {
   font-family: 'Montserrat';
 }
@@ -10,10 +10,18 @@ h1 {
   margin: 0 0 40px 0;
 }
 
-/* classes */
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* ----------------------------- Classes ----------------------------- */
 .container-fluid {
-  /* margin-bottom: -100px; */
-  padding: 3% 15%;
+  padding: 0 15%;
 }
 
 /* Navigation bar  */
@@ -47,8 +55,27 @@ h1 {
   transform: rotate(25deg);
 }
 
-/* ID's */
+/* Features */
+.col-lg-4 {
+  margin: 50px auto;
+}
+
+.icon-img {
+  color: #ef8172;
+}
+
+.icon-img:hover {
+  color: #ff4c68
+}
+
+/* ----------------------------- ID's ----------------------------- */
+#features {
+  margin: 100px auto;
+  text-align: center;
+}
+
 #title {
   background-color: #ff4c68;
   color: white;
+  overflow: hidden;
 }
