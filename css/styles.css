@@ -20,9 +20,6 @@ p {
 }
 
 /* ----------------------------- Classes ----------------------------- */
-.container-fluid {
-  padding: 0 15%;
-}
 
 /* Navigation bar  */
 .navbar {
@@ -51,31 +48,38 @@ p {
 
 /* Title Image  */
 .title-image {
-  width: 50%;
+  width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features */
-.col-lg-4 {
-  margin: 50px auto;
+.feature-box {
+  padding: 5%;
+  text-align: center;
 }
 
-.icon-img {
+.icon {
   color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.icon-img:hover {
+.icon:hover {
   color: #ff4c68
 }
 
 /* ----------------------------- ID's ----------------------------- */
 #features {
-  margin: 100px auto;
-  text-align: center;
+  padding: 7% 15%;
 }
 
 #title {
   background-color: #ff4c68;
   color: white;
   overflow: hidden;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
 }
