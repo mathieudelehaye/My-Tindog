@@ -57,7 +57,6 @@ p {
 #title {
   background-color: #ff4c68;
   color: white;
-  overflow: hidden;
 }
 
 #title .container-fluid {
@@ -85,6 +84,8 @@ p {
 }
 
 #features {
+  background-color: #fff;
+  position: relative;
   padding: 7% 15%;
 }
 
