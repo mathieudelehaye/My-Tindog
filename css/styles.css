@@ -138,3 +138,17 @@ p {
     text-align: center;
   }
 }
+
+/* Call to Action Section  */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-title {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 700;
+  /* line-height: 1.5; */
+}
